@@ -57,11 +57,11 @@ def update_man_image(height_value):
 
 
 # Icon
-Image_icon = PhotoImage(file="asetes/icon.png")
+Image_icon = PhotoImage(file="icon.png")
 root.iconphoto(False, Image_icon)
 
 # Top Image
-top = PhotoImage(file="asetes/top.png")
+top = PhotoImage(file="top.png")
 top_image = Label(root, image=top, background="#f0f1f5")
 top_image.place(x=-10, y=-10)
 
@@ -69,12 +69,12 @@ top_image.place(x=-10, y=-10)
 Label(root, width=72, height=18, bg="lightblue").pack(side=BOTTOM)
 
 # Two Boxes for Height and Weight
-box = PhotoImage(file="asetes/box.png")
+box = PhotoImage(file="box.png")
 Label(root, image=box).place(x=20, y=100)
 Label(root, image=box).place(x=240, y=100)
 
 # Scale Image
-Scale = PhotoImage(file="asetes/scale.png")
+Scale = PhotoImage(file="scale.png")
 Label(root, image=Scale, bg="lightblue").place(x=20, y=310)
 
 # Load Man Image
